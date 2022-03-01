@@ -8,7 +8,7 @@ import './style.css'
 export function Header(){
     return(
         <Fragment>
-        <Row justify='space-between'>
+        <Row justify='space-between' align='middle'>
             <Col>
             <Menu/>
             </Col>

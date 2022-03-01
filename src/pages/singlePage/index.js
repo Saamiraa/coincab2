@@ -22,13 +22,13 @@ export function SinglePage(){
     return(
         <DefaultLayOut>
         <p>single page</p>
-        <Descriptions title="User Info" bordered={true} layout="vertical" size="small">
+        <Descriptions title="User Info" bordered={true} layout="vertical">
         <Descriptions.Item label="price">{item.priceUsd}</Descriptions.Item>
         <Descriptions.Item label="Telephone">1810000000</Descriptions.Item>
         <Descriptions.Item label="symbol">{item.symbol}</Descriptions.Item>
         <Descriptions.Item label="Remark">empty</Descriptions.Item>
         <Descriptions.Item label="Address">
-          No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China
+        No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China
         </Descriptions.Item>
         </Descriptions>
         </DefaultLayOut>

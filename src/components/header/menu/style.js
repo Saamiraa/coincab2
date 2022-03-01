@@ -4,16 +4,16 @@ const Style = styled.div `
         display: flex;
         li{
             a{
-                padding: 20px;
+                padding: 27px;
                 display:block;
                 color:rgba(0,0,0,.87);
-                &:hover a {
-                    background: rgba(0,0,0,.3);
-                    color:rgba(0,0,0,.95)
 
+                &:hover{
+                cursor: pointer;
+                background: rgba(0,0,0,.03);
+                color: rgba(0,0,0,.95);
                 }
             }
-
         }
     }
 `;
