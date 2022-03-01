@@ -1,8 +1,11 @@
-import './style.css'
+import Style from "./style";
 
 export function Logo(){
     return(
-        <img src='images/logo.svg'/>
+        <Style>
+            <img src='images/logo.svg'/>
+        </Style>
+        
     )
 }
 export default Logo;

@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import {SearchOutlined,  SettingFilled} from "@ant-design/icons";
+import Style from './style';
 
 export function HeaderTools(){
     return(
+        <Style>
         <ul>
         <li><Link to="/"><SearchOutlined /></Link></li>
         <li><Link to="/"><SettingFilled/></Link></li>
@@ -13,6 +15,7 @@ export function HeaderTools(){
         </Link>
         </li>
         </ul>
+        </Style>
     )   
 };
 export default HeaderTools;
